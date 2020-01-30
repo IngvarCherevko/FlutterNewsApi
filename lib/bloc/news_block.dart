@@ -12,7 +12,7 @@ class NewsBloc extends Bloc {
   final _articlesStream = BehaviorSubject<List<Articles>>();
 
 
-  WeatherForecastBloc() {
+  NewsBloc() {
     _articlesStream.add([]);
   }
 
